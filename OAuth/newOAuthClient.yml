@@ -1,0 +1,8 @@
+apiVersixon: oauth.openshift.io/v1
+kind: OAuthClient
+metadata:
+ name: demo 
+secret: "..." 
+redirectURIs:
+ - "http://www.example.com/" 
+grantMethod: prompt 
